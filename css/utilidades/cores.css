@@ -1,0 +1,103 @@
+:root {
+    --c12: #000000;
+    --c11: #121212;
+    --c10: #2E2E2E;
+    --c09: #404040;
+    --c08: #595959;
+    --c07: #696969;
+    --c06: #9C9C9C;
+    --c05: #B3B3B3;
+    --c04: #CCCCCC;
+    --c03: #DEDEDE;
+    --c02: #EDEDED;
+    --c01: #F7F7F7;
+    --c00: #FFFFFF;
+
+    --p05: #332200;
+    --p04: #664400;
+    --p03: #A66F00;
+    --p02: #E5A40B;
+    --p01: #FFBB00;
+}
+
+.cor-12 {
+    color:#000000;
+}
+.cor-11 {
+    color:#121212;
+}
+.cor-10 {
+    color:#2E2E2E;
+}
+.cor-09 {
+    color:#404040;
+}
+.cor-08 {
+    color:#595959;
+}
+.cor-07 {
+    color:#696969;
+}
+.cor-06 {
+    color:#9C9C9C;
+}
+.cor-05 {
+    color:#B3B3B3;
+}
+.cor-04 {
+    color:#CCCCCC;
+}
+.cor-03 {
+    color:#DEDEDE;
+}
+.cor-02 {
+    color:#EDEDED;
+}
+.cor-01 {
+    color:#F7F7F7;
+}
+.cor-00 {
+    color:#FFFFFF;
+}
+
+.cor-p05 {
+    color:#332200 ;
+}
+.cor-p04 {
+    color:#664400 ;
+}
+.cor-p03 {
+    color:#A66F00 ;
+}
+.cor-p02 {
+    color:#E5A40B ;
+}
+.cor-p01 {
+    color:#FFBB00;
+}
+
+.titulo-bg {
+    background-color: var(--c11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titulo {
+    background: url(../../img/dec/top-right.svg) no-repeat top right 20px;
+}
+
+.titulo p {
+    margin-bottom: 4px;
+}
+
+@media(max-width:800px){
+    .titulo-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .titulo p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+}
