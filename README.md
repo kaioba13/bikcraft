@@ -7,6 +7,8 @@ Principais conceitos;
 - Otimização
 - Acessibilidade
 
+<a href="https://bikcraft-alpha.vercel.app/" target="_blank">Clique aqui pra visitar</a>
+
 ## 
 
 <div style="display: inline_block"><br>
